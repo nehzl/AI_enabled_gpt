@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="         Nehal's AI application"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#D10E0E"
+        />
+
+
+    <EditText
+        android:id="@+id/ET_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="24dp"
+        android:inputType="text"
+        android:hint="Prompt"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="10dp"
+         />
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/TvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="25dp"/>
+
+
+
+</LinearLayout>
